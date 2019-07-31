@@ -34,16 +34,16 @@ def get_totals(item_list, machines, recipes, prod_modifier, restricted_machines=
 def handle_oil_processing(totals, machines, recipes, prod_modifier):
     refinery_prod_modifier = 1 + machines["oil_refinery"].modules * prod_modifier
     plant_prod_modifier = 1 + machines["chemical_plant"].modules * prod_modifier
-    processing = recipes["basic_oil_processing"]
+    processing = recipes["advanced_oil_processing"]
     heavy_cracking = recipes["heavy_oil_cracking_to_light_oil"]
     light_cracking = recipes["light_oil_cracking_to_petroleum_gas"]
-    refinery_crude_in = processing.ingredients[0][1]
+    refinery_crude_in = processing.ingredients[1][1]
     refinery_heavy_out = processing.quantity[0][1] * processing.quantity[0][2] / 100 * refinery_prod_modifier
-    refinery_light_out = processing.quantity[0][1] * processing.quantity[0][2] / 100 * refinery_prod_modifier
-    refinery_petro_out = processing.quantity[0][1] * processing.quantity[0][2] / 100 * refinery_prod_modifier
-    plant_heavy_in = heavy_cracking.ingredients[0][1]
+    refinery_light_out = processing.quantity[1][1] * processing.quantity[1][2] / 100 * refinery_prod_modifier
+    refinery_petro_out = processing.quantity[2][1] * processing.quantity[2][2] / 100 * refinery_prod_modifier
+    plant_heavy_in = heavy_cracking.ingredients[1][1]
     plant_light_out = heavy_cracking.quantity[0][1] * heavy_cracking.quantity[0][2] / 100 * plant_prod_modifier
-    plant_light_in = light_cracking.ingredients[0][1]
+    plant_light_in = light_cracking.ingredients[1][1]
     plant_petro_out = light_cracking.quantity[0][1] * light_cracking.quantity[0][2] / 100 * plant_prod_modifier
     refinery_pure_light_out = refinery_light_out + refinery_heavy_out / plant_heavy_in * plant_light_out
     refinery_pure_petro_out = refinery_petro_out + refinery_pure_light_out / plant_light_in * plant_petro_out
@@ -52,7 +52,7 @@ def handle_oil_processing(totals, machines, recipes, prod_modifier):
         heavy_required += totals["heavy_oil"]
     light_required = 0
     if "light_oil" in totals:
-        light_required += totals["heavy_oil"]
+        light_required += totals["light_oil"]
     petro_required = 0
     if "petroleum_gas" in totals:
         petro_required += totals["petroleum_gas"]
@@ -65,8 +65,8 @@ def handle_oil_processing(totals, machines, recipes, prod_modifier):
     light_processing_required = light_required / refinery_pure_light_out
     petro_required -= light_processing_required * refinery_petro_out
     if petro_required < 0:
-        print("WARNING - this crafting plan produces {} excess petroleum gas and will back up if used indefinitely!  ",
-              "You can prevent this by utilizing basic oil processing instead.".format(petro_required * -1))
+        print("WARNING - this crafting plan produces {} excess petroleum gas and will back up if used "
+              "indefinitely!".format(petro_required * -1))
         petro_required = 0
     petro_processing_required = petro_required / refinery_pure_petro_out
     processing_required = heavy_processing_required + light_processing_required + petro_processing_required
