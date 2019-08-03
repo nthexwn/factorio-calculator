@@ -1,0 +1,7183 @@
+{
+    "accumulator": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "battery",
+                    5
+                ]
+            }
+        ],
+        "made_in": [
+            "assembling_machine_3",
+            "assembling_machine_2",
+            "assembling_machine_1",
+            "player"
+        ],
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "accumulator",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "active_provider_chest": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_chest",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "active_provider_chest",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "advanced_circuit": {
+        "duration": 6,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "plastic_bar",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    4
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "advanced_oil_processing": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "water",
+                    50
+                ]
+            },
+            {
+                "py/tuple": [
+                    "crude_oil",
+                    100
+                ]
+            }
+        ],
+        "made_in": [
+            "oil_refinery"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "heavy_oil",
+                    25,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "light_oil",
+                    45,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "petroleum_gas",
+                    55,
+                    100
+                ]
+            }
+        ]
+    },
+    "arithmetic_combinator": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "arithmetic_combinator",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "artillery_shell": {
+        "duration": 15,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "explosives",
+                    8
+                ]
+            },
+            {
+                "py/tuple": [
+                    "explosive_cannon_shell",
+                    4
+                ]
+            },
+            {
+                "py/tuple": [
+                    "radar",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "artillery_shell",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "artillery_targeting_remote": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "radar",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "artillery_targeting_remote",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "artillery_turret": {
+        "duration": 440,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    60
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    40
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "concrete",
+                    60
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "artillery_turret",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "artillery_wagon": {
+        "duration": 4,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    40
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "engine_unit",
+                    64
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    16
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "artillery_wagon",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "assembling_machine_1": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    9
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "assembling_machine_1",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "assembling_machine_2": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "assembling_machine_1",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "assembling_machine_2",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "assembling_machine_3": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "assembling_machine_2",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "speed_module",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "assembling_machine_3",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "atomic_bomb": {
+        "duration": 50,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "explosives",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "rocket_control_unit",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "uranium_235",
+                    30
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "atomic_bomb",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "automation_science_pack": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "automation_science_pack",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "basic_oil_processing": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "crude_oil",
+                    100
+                ]
+            }
+        ],
+        "made_in": [
+            "oil_refinery"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "petroleum_gas",
+                    45,
+                    100
+                ]
+            }
+        ]
+    },
+    "battery": {
+        "duration": 4,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "sulfuric_acid",
+                    20
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "battery",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "beacon": {
+        "duration": 15,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    20
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "beacon",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "belt_immunity_equipment": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "belt_immunity_equipment",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "big_electric_pole": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_stick",
+                    8
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "big_electric_pole",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "boiler": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "pipe",
+                    4
+                ]
+            },
+            {
+                "py/tuple": [
+                    "stone_furnace",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "boiler",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "buffer_chest": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_chest",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "buffer_chest",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "burner_inserter": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "burner_inserter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "burner_mining_drill": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "stone_furnace",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "burner_mining_drill",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "cannon_shell": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "plastic_bar",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "explosives",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "cannon_shell",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "car": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "engine_unit",
+                    8
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "car",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "cargo_wagon": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "cargo_wagon",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "centrifuge": {
+        "duration": 4,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    50
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "concrete",
+                    100
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "centrifuge",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "chemical_plant": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "chemical_plant",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "chemical_science_pack": {
+        "duration": 24,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "sulfur",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "engine_unit",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "chemical_science_pack",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "cliff_explosives": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "explosives",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "grenade",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "cliff_explosives",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "cluster_grenade": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "explosives",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "grenade",
+                    7
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "cluster_grenade",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "coal_liquefaction": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "coal",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "heavy_oil",
+                    25
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steam",
+                    50
+                ]
+            }
+        ],
+        "made_in": [
+            "oil_refinery"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "heavy_oil",
+                    90,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "light_oil",
+                    20,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "petroleum_gas",
+                    10,
+                    100
+                ]
+            }
+        ]
+    },
+    "combat_shotgun": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "wood",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    15
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "combat_shotgun",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "concrete": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_ore",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "stone_brick",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "water",
+                    100
+                ]
+            }
+        ],
+        "made_in": [
+            "assembling_machine_3",
+            "assembling_machine_2"
+        ],
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "concrete",
+                    10,
+                    100
+                ]
+            }
+        ]
+    },
+    "constant_combinator": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "constant_combinator",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "construction_robot": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "flying_robot_frame",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "construction_robot",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "copper_cable": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "copper_plate": {
+        "duration": 3.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_ore",
+                    1
+                ]
+            }
+        ],
+        "made_in": [
+            "electric_furnace",
+            "steel_furnace",
+            "stone_furnace"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "decider_combinator": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "decider_combinator",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "defender_capsule": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "piercing_rounds_magazine",
+                    3
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "defender_capsule",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "destroyer_capsule": {
+        "duration": 15,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "speed_module",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "distractor_capsule",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "destroyer_capsule",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "discharge_defense": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "laser_turret",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "discharge_defense",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "discharge_defense_remote": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "discharge_defense_remote",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "distractor_capsule": {
+        "duration": 15,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "defender_capsule",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "distractor_capsule",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "efficiency_module": {
+        "duration": 15,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "efficiency_module",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "efficiency_module_2": {
+        "duration": 30,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "efficiency_module",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "efficiency_module_2",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "efficiency_module_3": {
+        "duration": 60,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "efficiency_module_2",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "efficiency_module_3",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "electric_engine_unit": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "engine_unit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "lubricant",
+                    15
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "electric_engine_unit",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "electric_furnace": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "stone_brick",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "electric_furnace",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "electric_mining_drill": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "electric_mining_drill",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "electronic_circuit": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    3
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "empty_barrel": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "empty_crude_oil_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "crude_oil_barrel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "crude_oil",
+                    50,
+                    100
+                ]
+            }
+        ]
+    },
+    "empty_heavy_oil_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "heavy_oil_barrel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "heavy_oil",
+                    50,
+                    100
+                ]
+            }
+        ]
+    },
+    "empty_light_oil_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "light_oil_barrel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "light_oil",
+                    50,
+                    100
+                ]
+            }
+        ]
+    },
+    "empty_lubricant_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "lubricant_barrel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "lubricant",
+                    50,
+                    100
+                ]
+            }
+        ]
+    },
+    "empty_petroleum_gas_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "petroleum_gas_barrel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "petroleum_gas",
+                    50,
+                    100
+                ]
+            }
+        ]
+    },
+    "empty_sulfuric_acid_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "sulfuric_acid_barrel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "sulfuric_acid",
+                    50,
+                    100
+                ]
+            }
+        ]
+    },
+    "empty_water_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "water_barrel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "water",
+                    50,
+                    100
+                ]
+            }
+        ]
+    },
+    "energy_shield": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "energy_shield",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "energy_shield_mk2": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "energy_shield",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "energy_shield_mk2",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "engine_unit": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    2
+                ]
+            }
+        ],
+        "made_in": [
+            "assembling_machine_3",
+            "assembling_machine_2",
+            "assembling_machine_1"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "engine_unit",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "exoskeleton": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electric_engine_unit",
+                    30
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "exoskeleton",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "explosive_cannon_shell": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "plastic_bar",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "explosives",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "explosive_cannon_shell",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "explosive_rocket": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "explosives",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "rocket",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "explosive_rocket",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "explosive_uranium_cannon_shell": {
+        "duration": 12,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "uranium_238",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "explosive_cannon_shell",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "explosive_uranium_cannon_shell",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "explosives": {
+        "duration": 4,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "coal",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "sulfur",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "water",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "explosives",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "express_splitter": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "fast_splitter",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "lubricant",
+                    80
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "express_splitter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "express_transport_belt": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "fast_transport_belt",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "lubricant",
+                    20
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "express_transport_belt",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "express_underground_belt": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    80
+                ]
+            },
+            {
+                "py/tuple": [
+                    "fast_underground_belt",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "lubricant",
+                    40
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "express_underground_belt",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "fast_inserter": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "inserter",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "fast_inserter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fast_splitter": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "splitter",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "fast_splitter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fast_transport_belt": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "transport_belt",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "fast_transport_belt",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fast_underground_belt": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    40
+                ]
+            },
+            {
+                "py/tuple": [
+                    "underground_belt",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "fast_underground_belt",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "fill_crude_oil_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "crude_oil",
+                    50
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "crude_oil_barrel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fill_heavy_oil_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "heavy_oil",
+                    50
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "heavy_oil_barrel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fill_light_oil_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "light_oil",
+                    50
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "light_oil_barrel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fill_lubricant_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "lubricant",
+                    50
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "lubricant_barrel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fill_petroleum_gas_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "petroleum_gas",
+                    50
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "petroleum_gas_barrel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fill_sulfuric_acid_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "sulfuric_acid",
+                    50
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "sulfuric_acid_barrel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fill_water_barrel": {
+        "duration": 0.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "empty_barrel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "water",
+                    50
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "water_barrel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "filter_inserter": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    4
+                ]
+            },
+            {
+                "py/tuple": [
+                    "fast_inserter",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "filter_inserter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "firearm_magazine": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "firearm_magazine",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "flamethrower": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "flamethrower",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "flamethrower_ammo": {
+        "duration": 6,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "crude_oil",
+                    100
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "flamethrower_ammo",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "flamethrower_turret": {
+        "duration": 20,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    30
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    15
+                ]
+            },
+            {
+                "py/tuple": [
+                    "engine_unit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "flamethrower_turret",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "fluid_wagon": {
+        "duration": 1.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    16
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "storage_tank",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    8
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "fluid_wagon",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "flying_robot_frame": {
+        "duration": 20,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "battery",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electric_engine_unit",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "flying_robot_frame",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "gate": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "wall",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "gate",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "green_wire": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "green_wire",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "grenade": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "coal",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "grenade",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "gun_turret": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "gun_turret",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "hazard_concrete": {
+        "duration": 0.25,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "concrete",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "hazard_concrete",
+                    10,
+                    100
+                ]
+            }
+        ]
+    },
+    "heat_exchanger": {
+        "duration": 3,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "heat_exchanger",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "heat_pipe": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "heat_pipe",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "heavy_armor": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    50
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "heavy_armor",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "heavy_oil_cracking_to_light_oil": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "water",
+                    30
+                ]
+            },
+            {
+                "py/tuple": [
+                    "heavy_oil",
+                    40
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "light_oil",
+                    30,
+                    100
+                ]
+            }
+        ]
+    },
+    "inserter": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "inserter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "iron_chest": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    8
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "iron_chest",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "iron_gear_wheel": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "iron_plate": {
+        "duration": 3.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_ore",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 119
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "iron_stick": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "iron_stick",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "kovarex_enrichment_process": {
+        "duration": 60,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "uranium_235",
+                    40
+                ]
+            },
+            {
+                "py/tuple": [
+                    "uranium_238",
+                    5
+                ]
+            }
+        ],
+        "made_in": "centrifuge",
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "uranium_235",
+                    41,
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "uranium_238",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "lab": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "transport_belt",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "lab",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "lamp": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "lamp",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "landfill": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "stone",
+                    20
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "landfill",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "landmine": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "explosives",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "landmine",
+                    4,
+                    100
+                ]
+            }
+        ]
+    },
+    "laser_turret": {
+        "duration": 20,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "battery",
+                    12
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    20
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "laser_turret",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "light_armor": {
+        "duration": 3,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    40
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "light_armor",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "light_oil_cracking_to_petroleum_gas": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "water",
+                    30
+                ]
+            },
+            {
+                "py/tuple": [
+                    "light_oil",
+                    30
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "petroleum_gas",
+                    20,
+                    100
+                ]
+            }
+        ]
+    },
+    "locomotive": {
+        "duration": 4,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    30
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "engine_unit",
+                    20
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "locomotive",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "logistic_robot": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "flying_robot_frame",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "logistic_robot",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "logistic_science_pack": {
+        "duration": 6,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "transport_belt",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "inserter",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "logistic_science_pack",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "long_handed_inserter": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "inserter",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "long_handed_inserter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "low_density_structure": {
+        "duration": 20,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "plastic_bar",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "lubricant": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "heavy_oil",
+                    10
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "lubricant",
+                    10,
+                    100
+                ]
+            }
+        ]
+    },
+    "medium_electric_pole": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_stick",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "medium_electric_pole",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "military_science_pack": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "piercing_rounds_magazine",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "grenade",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "wall",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "military_science_pack",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "modular_armor": {
+        "duration": 15,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    50
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    30
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "modular_armor",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "nightvision": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "nightvision",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "nuclear_fuel": {
+        "duration": 90,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "rocket_fuel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "uranium_235",
+                    1
+                ]
+            }
+        ],
+        "made_in": [
+            "centrifuge"
+        ],
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "nuclear_fuel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "nuclear_fuel_reprocessing": {
+        "duration": 60,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "used_up_uranium_fuel_cell",
+                    5
+                ]
+            }
+        ],
+        "made_in": [
+            "centrifuge"
+        ],
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "uranium_238",
+                    3,
+                    100
+                ]
+            }
+        ]
+    },
+    "nuclear_reactor": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    500
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    500
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    500
+                ]
+            },
+            {
+                "py/tuple": [
+                    "concrete",
+                    500
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "nuclear_reactor",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "offshore_pump": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "offshore_pump",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "oil_refinery": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    15
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "stone_brick",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "oil_refinery",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "passive_provider_chest": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_chest",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "passive_provider_chest",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "personal_battery": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "battery",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "personal_battery",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "personal_battery_mk2": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    15
+                ]
+            },
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "personal_battery",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "personal_battery_mk2",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "personal_laser_defense": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "laser_turret",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "personal_laser_defense",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "personal_roboport": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "battery",
+                    45
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    40
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "personal_roboport",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "personal_roboport_mk2": {
+        "duration": 20,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "personal_roboport",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "personal_roboport_mk2",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "piercing_rounds_magazine": {
+        "duration": 3,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "firearm_magazine",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "piercing_rounds_magazine",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "piercing_shotgun_shells": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "shotgun_shells",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "piercing_shotgun_shells",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "pipe": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "pipe",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "pipe_to_ground": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "pipe_to_ground",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "pistol": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "pistol",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "plastic_bar": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "coal",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "petroleum_gas",
+                    20
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "plastic_bar",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "poison_capsule": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "coal",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "poison_capsule",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "portable_fusion_reactor": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    200
+                ]
+            },
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    50
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "portable_fusion_reactor",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "portable_solar_panel": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "solar_panel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "portable_solar_panel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "power_armor": {
+        "duration": 20,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    40
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    40
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electric_engine_unit",
+                    20
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "power_armor",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "power_armor_mk2": {
+        "duration": 25,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    60
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electric_engine_unit",
+                    40
+                ]
+            },
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    30
+                ]
+            },
+            {
+                "py/tuple": [
+                    "speed_module_2",
+                    25
+                ]
+            },
+            {
+                "py/tuple": [
+                    "efficiency_module_2",
+                    25
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "power_armor_mk2",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "power_switch": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "power_switch",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "processing_unit": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "sulfuric_acid",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "production_science_pack": {
+        "duration": 21,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "rail",
+                    30
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electric_furnace",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "productivity_module",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "productivity_science_pack",
+                    3,
+                    100
+                ]
+            }
+        ]
+    },
+    "productivity_module": {
+        "duration": 15,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "productivity_module",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "productivity_module_2": {
+        "duration": 30,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "productivity_module",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "productivity_module_2",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "productivity_module_3": {
+        "duration": 60,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "productivity_module_2",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "productivity_module_3",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "programmable_speaker": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_stick",
+                    4
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "programmable_speaker",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "pump": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "engine_unit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "pump",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "pumpjack": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "pumpjack",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "radar": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "radar",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "rail": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "stone",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_stick",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "rail",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "rail_chain_signal": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "rail_chain_signal",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "rail_signal": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "rail_signal",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "red_wire": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "red_wire",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "refined_concrete": {
+        "duration": 15,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_stick",
+                    8
+                ]
+            },
+            {
+                "py/tuple": [
+                    "concrete",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "water",
+                    100
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 106
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "refined_concrete",
+                    10,
+                    100
+                ]
+            }
+        ]
+    },
+    "refined_hazard_concrete": {
+        "duration": 0.25,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "refined_concrete",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "refined_hazard_concrete",
+                    10,
+                    100
+                ]
+            }
+        ]
+    },
+    "repair_pack": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "repair_pack",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "requester_chest": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_chest",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "requester_chest",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "roboport": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    45
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    45
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    45
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "roboport",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "rocket": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "explosives",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "rocket",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "rocket_control_unit": {
+        "duration": 30,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "speed_module",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "rocket_control_unit",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "rocket_fuel": {
+        "duration": 30,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "solid_fuel",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "light_oil",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "rocket_fuel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "rocket_launcher": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "rocket_launcher",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "rocket_part": {
+        "duration": 3,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "rocket_control_unit",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "rocket_fuel",
+                    10
+                ]
+            }
+        ],
+        "made_in": [
+            "rocket_silo"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "rocket_part",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "rocket_silo": {
+        "duration": 30,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1000
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    200
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electric_engine_unit",
+                    200
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "concrete",
+                    1000
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "rocket_silo",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "satellite": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "rocket_fuel",
+                    50
+                ]
+            },
+            {
+                "py/tuple": [
+                    "solar_panel",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "accumulator",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "radar",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "satellite",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "science": {
+        "duration": 60,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "automation_science_pack",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "logistic_science_pack",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "military_science_pack",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "chemical_science_pack",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "production_science_pack",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "utility_science_pack",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "space_science_pack",
+                    1
+                ]
+            }
+        ],
+        "made_in": [
+            "lab"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "science",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "shotgun": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "wood",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    15
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "shotgun",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "shotgun_shells": {
+        "duration": 3,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "shotgun_shells",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "slowdown_capsule": {
+        "duration": 8,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "coal",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "slowdown_capsule",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "small_electric_pole": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "wood",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_cable",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "small_electric_pole",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "solar_panel": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    15
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "solar_panel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "solid_fuel_from_heavy_oil": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "heavy_oil",
+                    20
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "solid_fuel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "solid_fuel_from_light_oil": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "light_oil",
+                    10
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "solid_fuel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "solid_fuel_from_petroleum_gas": {
+        "duration": 2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "petroleum_gas",
+                    20
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "solid_fuel",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "space_science_pack": {
+        "duration": 60,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "rocket_part",
+                    100
+                ]
+            },
+            {
+                "py/tuple": [
+                    "satellite",
+                    1
+                ]
+            }
+        ],
+        "made_in": [
+            "rocket_silo"
+        ],
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "space_science_pack",
+                    1000,
+                    100
+                ]
+            }
+        ]
+    },
+    "speed_module": {
+        "duration": 15,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "speed_module",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "speed_module_2": {
+        "duration": 30,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "speed_module",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "speed_module_2",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "speed_module_3": {
+        "duration": 60,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "speed_module_2",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "speed_module_3",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "splitter": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "transport_belt",
+                    4
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "splitter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "stack_filter_inserter": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "stack_inserter",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "stack_filter_inserter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "stack_inserter": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    15
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    15
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "fast_inserter",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "stack_inserter",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "steam_engine": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    8
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "steam_engine",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "steam_turbine": {
+        "duration": 3,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    50
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    50
+                ]
+            },
+            {
+                "py/tuple": [
+                    "pipe",
+                    20
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "steam_turbine",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "steel_chest": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    8
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "steel_chest",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "steel_furnace": {
+        "duration": 3,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    6
+                ]
+            },
+            {
+                "py/tuple": [
+                    "stone_brick",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "steel_furnace",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "steel_plate": {
+        "duration": 16,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 119
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "stone_brick": {
+        "duration": 3.2,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "stone",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 119
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "stone_brick",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "stone_furnace": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "stone",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "stone_furnace",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "storage_chest": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_chest",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "storage_chest",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "storage_tank": {
+        "duration": 3,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    20
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "storage_tank",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "submachine_gun": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    10
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "submachine_gun",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "substation": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "copper_plate",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "substation",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "sulfur": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "water",
+                    30
+                ]
+            },
+            {
+                "py/tuple": [
+                    "petroleum_gas",
+                    30
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "sulfur",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "sulfuric_acid": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "sulfur",
+                    5
+                ]
+            },
+            {
+                "py/tuple": [
+                    "water",
+                    100
+                ]
+            }
+        ],
+        "made_in": [
+            "chemical_plant"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "sulfuric_acid",
+                    50,
+                    100
+                ]
+            }
+        ]
+    },
+    "tank": {
+        "duration": 5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    50
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    15
+                ]
+            },
+            {
+                "py/tuple": [
+                    "advanced_circuit",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "engine_unit",
+                    32
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "tank",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "train_stop": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    6
+                ]
+            },
+            {
+                "py/tuple": [
+                    "steel_plate",
+                    3
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_stick",
+                    6
+                ]
+            },
+            {
+                "py/tuple": [
+                    "electronic_circuit",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "train_stop",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "transport_belt": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "iron_gear_wheel",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "transport_belt",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "underground_belt": {
+        "duration": 1,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "transport_belt",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "underground_belt",
+                    2,
+                    100
+                ]
+            }
+        ]
+    },
+    "uranium_cannon_shell": {
+        "duration": 12,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "uranium_238",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "cannon_shell",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "uranium_cannon_shell",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "uranium_fuel_cell": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "iron_plate",
+                    10
+                ]
+            },
+            {
+                "py/tuple": [
+                    "uranium_235",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "uranium_238",
+                    19
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "uranium_fuel_cell",
+                    10,
+                    100
+                ]
+            }
+        ]
+    },
+    "uranium_processing": {
+        "duration": 12,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "uranium_ore",
+                    10
+                ]
+            }
+        ],
+        "made_in": [
+            "centrifuge"
+        ],
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "uranium_235",
+                    1,
+                    0.7
+                ]
+            },
+            {
+                "py/tuple": [
+                    "uranium_238",
+                    1,
+                    99
+                ]
+            }
+        ]
+    },
+    "uranium_rounds_magazine": {
+        "duration": 10,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "uranium_238",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "piercing_rounds_magazine",
+                    1
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "uranium_rounds_magazine",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "utility_science_pack": {
+        "duration": 21,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "processing_unit",
+                    2
+                ]
+            },
+            {
+                "py/tuple": [
+                    "flying_robot_frame",
+                    1
+                ]
+            },
+            {
+                "py/tuple": [
+                    "low_density_structure",
+                    3
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": true,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "utility_science_pack",
+                    3,
+                    100
+                ]
+            }
+        ]
+    },
+    "wall": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "stone_brick",
+                    5
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "wall",
+                    1,
+                    100
+                ]
+            }
+        ]
+    },
+    "wooden_chest": {
+        "duration": 0.5,
+        "ingredients": [
+            {
+                "py/tuple": [
+                    "wood",
+                    2
+                ]
+            }
+        ],
+        "made_in": {
+            "py/id": 2
+        },
+        "prod_allowed": false,
+        "py/object": "recipes.recipe.Recipe",
+        "quantity": [
+            {
+                "py/tuple": [
+                    "wooden_chest",
+                    1,
+                    100
+                ]
+            }
+        ]
+    }
+}

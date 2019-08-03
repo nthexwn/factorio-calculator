@@ -1,0 +1,62 @@
+{
+    "assembling_machine_1": {
+        "modules": 0,
+        "py/object": "recipes.machine.Machine",
+        "speed": 0.5
+    },
+    "assembling_machine_2": {
+        "modules": 2,
+        "py/object": "recipes.machine.Machine",
+        "speed": 0.75
+    },
+    "assembling_machine_3": {
+        "modules": 4,
+        "py/object": "recipes.machine.Machine",
+        "speed": 1.25
+    },
+    "centrifuge": {
+        "modules": 2,
+        "py/object": "recipes.machine.Machine",
+        "speed": 1
+    },
+    "chemical_plant": {
+        "modules": 3,
+        "py/object": "recipes.machine.Machine",
+        "speed": 1
+    },
+    "electric_furnace": {
+        "modules": 2,
+        "py/object": "recipes.machine.Machine",
+        "speed": 2
+    },
+    "lab": {
+        "modules": 2,
+        "py/object": "recipes.machine.Machine",
+        "speed": 1
+    },
+    "oil_refinery": {
+        "modules": 3,
+        "py/object": "recipes.machine.Machine",
+        "speed": 1
+    },
+    "player": {
+        "modules": 0,
+        "py/object": "recipes.machine.Machine",
+        "speed": 1
+    },
+    "rocket_silo": {
+        "modules": 4,
+        "py/object": "recipes.machine.Machine",
+        "speed": 1
+    },
+    "steel_furnace": {
+        "modules": 0,
+        "py/object": "recipes.machine.Machine",
+        "speed": 2
+    },
+    "stone_furnace": {
+        "modules": 0,
+        "py/object": "recipes.machine.Machine",
+        "speed": 1
+    }
+}

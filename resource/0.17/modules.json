@@ -1,0 +1,32 @@
+{
+    "productivity_module_1": {
+        "prod_modifier": 0.04,
+        "py/object": "recipes.module.Module",
+        "speed_modifier": -0.15
+    },
+    "productivity_module_2": {
+        "prod_modifier": 0.06,
+        "py/object": "recipes.module.Module",
+        "speed_modifier": -0.15
+    },
+    "productivity_module_3": {
+        "prod_modifier": 0.1,
+        "py/object": "recipes.module.Module",
+        "speed_modifier": -0.15
+    },
+    "speed_module_1": {
+        "prod_modifier": 0,
+        "py/object": "recipes.module.Module",
+        "speed_modifier": 0.2
+    },
+    "speed_module_2": {
+        "prod_modifier": 0,
+        "py/object": "recipes.module.Module",
+        "speed_modifier": 0.3
+    },
+    "speed_module_3": {
+        "prod_modifier": 0,
+        "py/object": "recipes.module.Module",
+        "speed_modifier": 0.5
+    }
+}
